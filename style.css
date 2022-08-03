@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.center{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin:0 auto;
+  padding:0 2%;
+}
+
+header{
+  padding:30px 0;
+  background-color: black;
+}
+
+
+.menu{
+  color:white;
+  text-decoration:none;
+}
+
+.menu {
+  position: absolute;
+  left: 25px;
+  top: 10px;
+}
+
+body{
+  background-color: #F1F1F1;
+}
+
+.area-login{
+  position:absolute;
+  top: 10%;
+  left:40%;
+  background-color:white
+}
+
+footer{
+  position:absolute;
+  top: 100%;
+  left:40%;
+}
+
+h3{
+  background-color: #3A3A3A;
+  border-color:#3A3A3A
+}
+
+
+
+  
+button{
+  background-color:#A7A6A6;
+  border-radius:20px;
+  border:none;
+  cursor:pointer;
+  }
+
+
+button:hover{
+  background-color:#FFAF1F;
+}
+
